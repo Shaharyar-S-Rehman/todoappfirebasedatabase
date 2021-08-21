@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+/* --------index----- */
+.nav-bar{
+ background-color: rgb(218, 216, 216) !important;
+}
+
+.signupDiv{
+    /* width: 80%; */
+    background-color: teal !important;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 50px 5px 50px 5px;
+}
+@media only screen and (max-width: 1000px) {
+    .signupDiv{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .signupDiv{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .signupDiv{
+        width: 80%;
+    }
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+}
+h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 5px 5px grey;
+}
+.small{
+    color: rgb(12, 9, 9) !important;
+}
+.LoginBtn{
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+
+
+input{
+    font-weight: bolder !important;
+    text-align: center;
+}
+.loginhead{
+    padding-left: 5%;
+}
+.signhead{
+    font-size: 40px;
+    /* margin: 0 10% 0 5%; */
+}
+.btnindex{
+    margin-bottom: 2%;
+}
+/* //-----------------todoapp---------------// */
+/* 
+li{
+    font-size: 1.5em;
+    color: white;
+    margin-top: 5%;
+}
+.icon{
+    color: white;
+    font-size: 1.5em;
+    padding-right: 15% !important;
+} */
+.todoHead{
+    text-align: center;
+}
+.add{
+    /* margin-top: 5%; */
+    margin-left: 35%;
+}
+@media only screen and (max-width: 770px) {
+    .dele{
+        margin-top: 2%;
+        margin-left: 35%;
+    }
+}
+.todolist{
+    /* background-color: rgb(218, 216, 216); */
+    /* background-color: whitesmoke; */
+    /* box-shadow: 5px 5px 5px rgb(225, 230, 230); */
+    /* box-shadow: 5px 5px 5px grey; */
+    /* border-radius: 50px 5px 5px 5px; */
+    /* margin-top: 5%; */
+
+}
+
+li{
+    text-align: center;
+    padding-top: 5%;
+    /* color: black; */
+    color: whitesmoke;
+    font-size: 30px !important;
+    border-bottom: 2px double black;
+}
+.iconedt{
+    padding-left: 15%;
+}
+.icondlt{
+    padding-left: 3%;
+}
+
+/* @media only screen and (max-width: 770px) {
+    .iconedt{
+        
+        padding-left: 72%;
+    }
+    .icondlt{
+        padding-left: 3%;
+    }
+} */
